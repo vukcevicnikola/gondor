@@ -1,0 +1,48 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+// @import "../node_modules/bootstrap/scss/bootstrap";
+@import "./variables";
+// Then add additional custom code here
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#myDropdown > a {
+    outline: none;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+
+// Media Queries
+@media (min-width: 768px) {
+    #newsletter {
+        width: 50%;
+    }
+
+    #button-addon2 {
+        width: 50%;
+    }
+
+    body > section.bg-dark.text-light.text-center.text-sm-start.pt-5 > div > div > div {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    #navbarDropdown {
+        border: none;
+        outline: none;
+    }
+
+    #newsletter {
+        width: 100%;
+    }
+}

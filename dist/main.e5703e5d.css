@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#myDropdown > a {
+  outline: none;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+@media (min-width: 768px) {
+  #newsletter {
+    width: 50%;
+  }
+
+  #button-addon2 {
+    width: 50%;
+  }
+
+  body > section.bg-dark.text-light.text-center.text-sm-start.pt-5 > div > div > div {
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  #navbarDropdown {
+    border: none;
+    outline: none;
+  }
+
+  #newsletter {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=/main.e5703e5d.css.map */
